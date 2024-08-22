@@ -9,3 +9,6 @@ venv/
 
 # Excel files
 *.xlsx
+
+# CSV files
+*.csv
