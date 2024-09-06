@@ -33,7 +33,7 @@ league = st.text_input("Please enter the league abbreviation", help="For Example
 cur_year = st.number_input("Enter the current draft year", step=1, value=2024, min_value=2024, max_value=2200, help="This is needed for filtering purposes.")
 
 # Request CSVs from the user.
-files = st.file_uploader("Upload CSV files",
+files = st.file_uploader("Upload CSV files(player_record, players_personal, player_information & team_information)",
                          type="csv", accept_multiple_files=True,
                          help="Hold down Ctrl whilst selecting to choose multiple CSVs. "\
                               "They can be in any order, as long as the default naming convention remains intact.")
