@@ -98,7 +98,7 @@ if st.session_state['uploaded_files']:
 
             cur_draft = player_information[
                 (player_information['Draft_Year'] == cur_year) &
-                (~player_information['Position'].str.contains('P|K', na=False))
+                (~player_information['Position'].str.contains('P|K|LS', na=False))
             ].copy()
 
             team_mapping = team_information.set_index('Team')['Home_City'].to_dict()
