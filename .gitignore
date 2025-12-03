@@ -177,3 +177,6 @@ pyrightconfig.json
 
 # xlsx
 *.xlsx
+
+# Examples directory
+/Examples/
